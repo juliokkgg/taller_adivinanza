@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="378dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="199dp"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/intentos_selec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/intentos_selec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="436dp"
+        android:text="@string/intentos_select"
+        android:textColor="#1E1E1E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome"
+        app:layout_constraintVertical_bias="0.934" />
+
+    <Spinner
+        android:id="@+id/intentos_seleccion"
+        android:layout_width="219dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="382dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intentos_selec" />
+
+    <Button
+        android:id="@+id/iniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="296dp"
+        android:text="@string/iniciar"
+        app:iconTint="#4CAF50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intentos_seleccion" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

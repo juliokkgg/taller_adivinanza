@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Adivinanza</string>
+    <string name="intentos_select">Seleccione el numero de intentos:</string>
+    <string name="welcome">Bienvenido a el juego de la Adivinanza</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="verificar_numero">verificar numero</string>
+    <string name="info_game">Para jugar ingresa un numero, verifica el numero y trata de adivinar el numero con los intentos restantes.</string>
+    <string name="win">¡Has Ganado!</string>
+    <string name="again">Intentar de nuevo</string>
+    <string name="lose">Has Perdido</string>
+    <string name="again2">Intentar de nuevo</string>
+    <string-array name="intentosop">
+        <item>5</item>
+        <item>7</item>
+        <item>10</item>
+
+    </string-array>
+</resources>
